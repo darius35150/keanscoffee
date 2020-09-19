@@ -8,13 +8,14 @@
 		margin: 0px;
 		padding: 0px;
 		background: #151515 url(images/bg.png) repeat;
+		/* background-image: url('../images/IMG_0549.JPG'); */
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 12pt;
 		font-weight: 300;
 		color: rgba(255,255,255,0.4);
+		height: 100vh;
 	}
-	
-	
+
 	h1, h2, h3
 	{
 		margin: 0;
