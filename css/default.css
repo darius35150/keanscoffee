@@ -52,8 +52,14 @@
 		text-decoration: none;
 	}
 	
-	.container
+	/* .container
 	{
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1000px;
+	} */
+
+	.contactcontainer{
 		overflow: hidden;
 		margin: 0em auto;
 		width: 1000px;
@@ -538,7 +544,7 @@
 
 	#copyright
 	{
-		overflow: hidden;
+		overflow: visible;
 		padding: 5em 0em;
 		border-top: 1px solid rgba(255,255,255,0.05);
 	}
@@ -558,4 +564,15 @@
 		color: rgba(255,255,255,0.4);
 	}
 
+	form, .form-group .form-control{
+		width: 55%;
+		margin-left: 5%;
+	}
 
+	label{
+		margin-left: -75%;
+	}
+
+	form button{
+		margin-left: -83%;
+	}
