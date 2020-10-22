@@ -565,7 +565,7 @@
 	}
 
 	form, .form-group .form-control{
-		width: 55%;
+		width: 75%;
 		margin-left: 5%;
 	}
 
@@ -576,4 +576,9 @@
 	form button{
 		margin-left: -83%;
 		color: #4d5a44;
+	}
+
+	.checkboxes{
+		margin-left: 65px;
+		margin-top: -25px;
 	}

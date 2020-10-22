@@ -23,7 +23,20 @@ Released   : 20130924
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 
+    <script type="text/javascript" src="../js/script.js"></script>
+    <!-- <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init("user_GZFOFVBVqyLQn7siRZzIj");
+        })();
+    </script>
+
+    <script type="text/javascript">
+        
+    </script> -->
+    <!-- <script type="text/javascript" src="../js/script.js"></script> -->
 <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
 </head>
@@ -44,7 +57,7 @@ Released   : 20130924
     </div>
     <div id="page-wrapper">
         <div id="page" class="container">
-            <h2>Contact Kean's Coffee</h2>
+            <h1><b>Contact Kean's Coffee</b></h1>
             <p>
                 <!-- <b>
                     Kean's Koffee -->
@@ -52,34 +65,35 @@ Released   : 20130924
                 <br/>
                 <b>Email:   KenWill0801@hotmail.com</b> -->
             </p>
-            <div class="container" id="signupform">
-                <form class="form-horizontal" action="#">
-                    
+            <div class="container" >
+                <form class="form-horizontal" id="contact_form">
                     <div class="form-group">
-                        <label>First Name:</label>
-                        <input type="text" class="form-control" id="fname">
+                        <input type="text" class="form-control" id="fname" name="user_first_name" placeholder="First Name">
                     </div>
                     <div class="form-group">
-                        <label for="address">Last Name:</label>
-                        <input type="text" class="form-control" id="address">
+                        <input type="text" class="form-control" id="address" name="user_last_name" placeholder="Last Name">
                     </div>
                     <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" class="form-control" id="email">
+                        <input type="email" class="form-control" id="email" name="user_email" placeholder="Email">
                     </div>
                     <div class="form-group">
-                        <label for="phone">Phone:</label>
-                        <input type="text" class="form-control" id="phone"></input>
+                        <input type="text" class="form-control" id="phone" name="user_phone" placeholder="Phone">
                     </div>
                     <div class="form-group">
-                        <textarea name="message" rows=5 cols="50" class="form-control"></textarea>
+                        <textarea name="message" rows=5 cols="50" class="form-control" name="message" placeholder="Type message here..."></textarea>
                     </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                    <!-- <button id="cancel" type="cancel" class="btn btn-default">Cancel</button> -->
+                    <button type="submit" class="btn btn-default" onclick="testEmail()">Submit</button>
+                    <div class="checkboxes">
+                        <h5 class="checkbox-inline"><b>Preferred Contact Method:</b></h5>
+                        <label class="checkbox-inline"><input type="checkbox" name="radio_phone" value="Phone">Phone</input></label>
+                        <label class="checkbox-inline"><input type="checkbox" name="radio_email" value="Email">Email</input></label></input>
+                    </div>
                 </form>
+                
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="../js/script.js"></script>
     <div id="copyright" class="contactcontainer">
         <p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
     </div>
