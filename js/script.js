@@ -1,12 +1,7 @@
-// $(document).ready(function(){
-//     testEmail();
-// });
-
-
 const testEmail = () =>
 {
 
-    emailjs.init("user_GZFOFVBVqyLQn7siRZzIj");
+    emailjs.init("user_WcVXHM5ecQZEgZCZLz4N1");
 
 
     sendEmail();
@@ -18,7 +13,7 @@ const sendEmail = () =>
         
         event.preventDefault();
   
-        emailjs.sendForm('service_bkuthgq', 'contact_form', this).then(
+        emailjs.sendForm('service_manmuq6', 'contact_form', this).then(
 
             response = (response) =>
             {
