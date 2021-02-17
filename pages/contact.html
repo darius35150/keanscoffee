@@ -10,21 +10,24 @@ Version    : 1.0
 Released   : 20130924
 
 -->
-    <html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Kean's Koffee</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="../css/default.css" rel="stylesheet" type="text/css" media="all" />
     <link href="../css/fonts.css" rel="stylesheet" type="text/css" media="all" />
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 </head>
+
 <body>
     <div id="header-wrapper">
         <div id="header" class="container">
@@ -41,39 +44,58 @@ Released   : 20130924
         </div>
     </div>
     <div id="page-wrapper">
-        <div id="page" class="container">
-            <h1><b>Contact Kean's Coffee</b></h1>
-            <div class="container" >
-                <form class="form-horizontal" id="contact_form">
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="fname" name="user_first_name" placeholder="First Name">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="address" name="user_last_name" placeholder="Last Name">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" id="email" name="user_email" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="phone" name="user_phone" placeholder="Phone">
-                    </div>
-                    <div class="form-group">
-                        <textarea name="message" rows=5 cols="50" class="form-control" name="message" placeholder="Type message here..."></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-default" onclick="testEmail()">Submit</button>
-                    <div class="checkboxes">
-                        <h5 class="checkbox-inline"><b>Preferred Contact Method:</b></h5>
-                        <label class="checkbox-inline"><input type="checkbox" name="radio_phone" value="Phone">Phone</input></label>
-                        <label class="checkbox-inline"><input type="checkbox" name="radio_email" value="Email">Email</input></label></input>
-                    </div>
-                </form>
-                
+        <center>
+            <div id="form-title">
+                <h1><b>Contact Kean's Coffee</b></h1>
             </div>
+        </center>
+        <div id="pobox">
+            <h1>Mailing Address</h1>
+            <h4>
+                P.O. Box 94057
+                Centerpoint, AL  35220
+            </h4>
+        </div>
+        <div id="page" class="container">
+            <center>
+                <div class="container">
+                    <form class="form-horizontal" id="contact_form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="fname" name="user_first_name"
+                                placeholder="First Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="address" name="user_last_name"
+                                placeholder="Last Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" name="user_email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="phone" name="user_phone" placeholder="Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" rows=5 cols="50" class="form-control" name="message"
+                                placeholder="Type message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-default" onclick="testEmail()">Submit</button>
+                        <div class="checkboxes">
+                            <h5 class="checkbox-inline"><b>Preferred Contact Method:</b></h5>
+                            <label class="checkbox-inline"><input type="checkbox" name="radio_phone"
+                                    value="Phone">Phone</input></label>
+                            <label class="checkbox-inline"><input type="checkbox" name="radio_email"
+                                    value="Email">Email</input></label></input>
+                        </div>
+                    </form>
+                </div>
+            </center>
         </div>
     </div>
     <script type="text/javascript" src="../js/script.js"></script>
     <div id="copyright" class="contactcontainer">
-        <p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+        <p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a
+                href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
     </div>
 </body>
+
 </html>
