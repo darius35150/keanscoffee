@@ -19,6 +19,10 @@ Released   : 20130924
 	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
 	<link href="./css/default.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="./css/fonts.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="./css/default.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./css/fonts.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./css/slides.css" rel="stylesheet" type="text/css" media="all" />
+	<script type="text/javascript" src="./js/slideshow.js"></script>
 	<link rel="icon" type="image/png" href="images/favicon-192.png">
 	<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 </head>
@@ -30,7 +34,7 @@ Released   : 20130924
 				</div>
 				<div id="menu">
 					<ul>
-						<li><a href="./pages/products.html" accesskey="2" title="">Products</a></li>
+						<!-- <li><a href="./pages/products.html" accesskey="2" title="">Products</a></li> -->
 						<li><a href="./pages/about.html" accesskey="3" title="">About Us</a></li>
 						<li><a href="./pages/contact.html" accesskey="5" title="">Contact</a></li>
 					</ul>
@@ -39,34 +43,41 @@ Released   : 20130924
 		</div>
 		<div id="page-wrapper">
 			<div id="page" class="container">
-				<!-- <h2>Welcome to Kean's Koffee</h2> -->
-				<p><b>Start you day off with a beneficial taste!</b></p>		
+				<h2>Welcome to Kean's Koffee</h2>
+				<p><strong>Start you day off with a beneficial taste!</strong></p>		
+			</div>
+			<div class="slideshow-container">
+				<center>
+					<div class="mySlides fade slide1">
+						<div class="numbertext">1 / 3</div>
+						<img src="images/3_tree.jpeg" alt="All Products" style="width:50%">
+						<div class="text"><h2></strong>All Products</strong></h2></div>
+					</div>
+					
+					<div class="mySlides fade">
+						<div class="numbertext">2 / 3</div>
+						<img src="images/product_1.jpeg" style="width:50%">
+						<div class="text"><h2></strong>Single: $35</h2></strong></div>
+					</div>
+					
+					<div class="mySlides fade">
+						<div class="numbertext">3 / 3</div>
+						<img src="images/product_2.jpeg" style="width:50%">
+						<div class="text"><h2><strong>Single: $35</strong></h2></div>
+					</div>
+				</center>
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
 			</div>
 		</div>
 		<div id="portfolio" class="container">
-			<div class="box1">
-				<h2>Directory</h2>
-				<ul class="style2">
-					<li><a href="pages/products.html">Products</a></li>
-					<li><a href="pages/about.html">About Us</a></li>
-					<li><a href="pages/contact.html">Contact</a></li>
-				</ul>
+			<div id="pobox">
+				<h3>Mailing Address</h3>
+				<h3>
+					P.O. Box 94057
+					Centerpoint, AL  35220
+				</h3>
 			</div>
-			<!-- <div class="box2">
-				<h2>Fusce ultrices fringilla</h2>
-				<p>Posuere eleifend odio quisque semper augue mattis wisi maecenas ligula.</p>
-				<a href="#" class="button">Etiam posuere</a>
-			</div>
-			<div class="box3">
-				<h2>Etiam posuere augue</h2>
-				<p>Posuere eleifend odio quisque semper augue mattis wisi maecenas ligula</p>
-				<a href="#" class="button">Etiam posuere</a>
-			</div>
-			<div class="box4">
-				<h2>Donec dictum metus</h2>
-				<p>Posuere eleifend odio quisque semper augue mattis wisi maecenas ligula</p>
-				<a href="#" class="button">Etiam posuere</a>
-			</div>-->
 		</div> 
 
 		<div id="copyright" class="container">
