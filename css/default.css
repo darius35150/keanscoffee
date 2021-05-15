@@ -38,10 +38,6 @@ p
 	line-height: 180%;
 }
 
-/* strong
-{
-} */
-
 a
 {
 	color: #4da00c;
@@ -257,12 +253,6 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 	float: left;
 	margin-right: 220px;
 }
-
-/* .boxC
-{
-	float: left;
-} */
-
 /*********************************************************************************/
 /* 2-column                                                                      */
 /*********************************************************************************/
@@ -359,20 +349,12 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 	color: #FFF;
 }
 
-/* #menu li:hover a, #menu li.active a, #menu li.active span
-{
-} */
-
 #menu .current_page_item a
 {
 	background: #41880a;
 	border: 1px solid #3d7f0b;
 	border-radius: 20px;
 }
-
-/* #menu .icon
-{
-} */
 
 /*********************************************************************************/
 /* Banner                                                                        */
@@ -384,10 +366,6 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 	border-left: 20px solid #FFF;
 	border-right: 20px solid #FFF;
 }
-
-/* #banner img
-{
-} */
 
 /*********************************************************************************/
 /* Page                                                                          */
@@ -418,22 +396,6 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 {
 	color: rgba(0,0,0,0.8);
 }
-
-/*********************************************************************************/
-/* Content                                                                       */
-/*********************************************************************************/
-
-	/* #content
-	{
-	} */
-
-/*********************************************************************************/
-/* Sidebar                                                                       */
-/*********************************************************************************/
-
-	/* #sidebar
-	{
-	} */
 
 /*********************************************************************************/
 /* Featured                                                                      */
@@ -581,15 +543,20 @@ div, label, input{
 }
 
 #page-wrapper #pobox{
-	/* width: 210px; */
 	border-style: solid;
 	padding-right: 0%;
 	margin-right: 1400px;
 	color: whitesmoke;
 }
 
+#page-wrapper #pobox2{
+	border-style: solid;
+	padding-right: 0%;
+	margin-right: 1400px;
+	color: black;
+}
+
 h1 #form-title{
-	/* margin-top: -135px; */
 	width: 400px;
 }
 
